@@ -1,0 +1,467 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="5504" fromTop="9" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="10145" fromTop="152" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml" caret="2176" fromTop="25" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:PW.cs" caret="2411" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="1548" fromTop="26" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="1558" fromTop="22" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="1356" fromTop="18" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="2970" fromTop="16" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="2632" fromTop="11" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml" caret="2387" fromTop="9" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml" caret="2328" fromTop="6" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="1640" fromTop="7" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="5488" fromTop="29" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="6116" fromTop="35" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="8368" fromTop="27" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="8542" fromTop="31" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="8251" fromTop="21" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MainWindow.xaml.cs" caret="8006" fromTop="13" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:PW.cs" caret="3270" fromTop="9" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="6443" fromTop="18" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="13063" fromTop="14" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="13277" fromTop="18" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="13797" fromTop="7" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="15236" fromTop="14" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="15487" fromTop="21" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="15708" fromTop="27" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:PW.cs" caret="18274" fromTop="18" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:PW.cs" caret="21834" fromTop="15" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:PW.cs" caret="4538" fromTop="10" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:PW.cs" caret="2738" fromTop="7" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="8151" fromTop="18" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="7807" fromTop="6" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="7807" fromTop="6" />
+      <File id="66A7733F-CF43-42C9-A254-94FE6F39F643/f:MemFunctions.cs" caret="7934" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="private" priority="479" />
+      <Item value="Process`0" priority="31" />
+      <Item value="index0" priority="31" />
+      <Item value="int" priority="127" />
+      <Item value="void" priority="95" />
+      <Item value="ChatObjectsBase" priority="58" />
+      <Item value="LastChatObject" priority="95" />
+      <Item value="unsafe" priority="158" />
+      <Item value="public" priority="444" />
+      <Item value="class" priority="61" />
+      <Item value="string" priority="415" />
+      <Item value="enum" priority="30" />
+      <Item value="var" priority="511" />
+      <Item value="new" priority="447" />
+      <Item value="List" priority="93" />
+      <Item value="ChatMessage`0" priority="127" />
+      <Item value="list" priority="127" />
+      <Item value="ChatMessage" priority="57" />
+      <Item value="Id" priority="63" />
+      <Item value="chatObj" priority="163" />
+      <Item value="Scope" priority="65" />
+      <Item value="Message" priority="32" />
+      <Item value="static" priority="63" />
+      <Item value="foreach" priority="159" />
+      <Item value="Scopes`0" priority="159" />
+      <Item value="Enum`0" priority="31" />
+      <Item value="GetType`0" priority="26" />
+      <Item value="tabControl" priority="255" />
+      <Item value="Header" priority="31" />
+      <Item value="return" priority="287" />
+      <Item value="Name" priority="59" />
+      <Item value="scope" priority="32" />
+      <Item value="Visibility" priority="124" />
+      <Item value="IsSelected" priority="32" />
+      <Item value="TabItem`0" priority="63" />
+      <Item value="tab" priority="256" />
+      <Item value="Text" priority="128" />
+      <Item value="Timer" priority="57" />
+      <Item value="Action`0" priority="32" />
+      <Item value="PW`0" priority="63" />
+      <Item value="_pw" priority="159" />
+      <Item value="PW" priority="57" />
+      <Item value="ti" priority="31" />
+      <Item value="chatMessage" priority="127" />
+      <Item value="FontVariants`0" priority="31" />
+      <Item value="textBox" priority="254" />
+      <Item value="Visible" priority="33" />
+      <Item value="TextBox`0" priority="63" />
+      <Item value="tb" priority="351" />
+      <Item value="timer" priority="192" />
+      <Item value="TabByName`0" priority="63" />
+      <Item value="TextBoxByName`0" priority="127" />
+      <Item value="Document" priority="32" />
+      <Item value="TextRange" priority="29" />
+      <Item value="textRange" priority="31" />
+      <Item value="VerticalScrollBarVisibility" priority="32" />
+      <Item value="Auto" priority="17" />
+      <Item value="event" priority="31" />
+      <Item value="NewMessageEventHandler`0" priority="32" />
+      <Item value="lastMessages" priority="63" />
+      <Item value="List&lt;ChatMessage&gt;" priority="28" />
+      <Item value="GetMessages`0" priority="31" />
+      <Item value="newMessages" priority="58" />
+      <Item value="m1" priority="31" />
+      <Item value="NewMessage" priority="63" />
+      <Item value="yield return" priority="26" />
+      <Item value="_lastMessages" priority="31" />
+      <Item value="str" priority="97" />
+      <Item value="Nickname" priority="129" />
+      <Item value="Raw" priority="92" />
+      <Item value="if" priority="287" />
+      <Item value="cm" priority="610" />
+      <Item value="Paragraph`0" priority="63" />
+      <Item value="Paragraph" priority="86" />
+      <Item value="Inline`0" priority="31" />
+      <Item value="Run" priority="28" />
+      <Item value="i" priority="31" />
+      <Item value="SolidColorBrush`0" priority="31" />
+      <Item value="SolidColorBrush" priority="109" />
+      <Item value="Colors`0" priority="127" />
+      <Item value="readonly" priority="127" />
+      <Item value="Dictionary" priority="63" />
+      <Item value="Dictionary&lt;Scopes,Color&gt;" priority="29" />
+      <Item value="_colors" priority="95" />
+      <Item value="AddText`0" priority="31" />
+      <Item value="FontStyle" priority="60" />
+      <Item value="FontWeight" priority="27" />
+      <Item value="FontWeights`0" priority="64" />
+      <Item value="KeepWithNext" priority="26" />
+      <Item value="Margin" priority="53" />
+      <Item value="Thickness" priority="57" />
+      <Item value="Background" priority="27" />
+      <Item value="this" priority="32" />
+      <Item value="p" priority="63" />
+      <Item value="for" priority="31" />
+      <Item value="allTextBox" priority="30" />
+      <Item value="start" priority="31" />
+      <Item value="TextRange`0" priority="31" />
+      <Item value="filter" priority="63" />
+      <Item value="WhereNot`1" priority="26" />
+      <Item value="filters" priority="63" />
+      <Item value="_cnt" priority="160" />
+      <Item value="UpdateIcon`0" priority="63" />
+      <Item value="TaskbarItemInfo" priority="31" />
+      <Item value="null" priority="31" />
+      <Item value="IsActive" priority="31" />
+      <Item value="uint" priority="63" />
+      <Item value="ItemId" priority="60" />
+      <Item value="_raw" priority="95" />
+      <Item value="else" priority="31" />
+      <Item value="Dispatcher" priority="31" />
+      <Item value="DispatcherTimer" priority="28" />
+      <Item value="IntPtr`0" priority="58" />
+      <Item value="List&lt;IntPtr&gt;" priority="28" />
+      <Item value="ElementClient`0" priority="191" />
+      <Item value="processes" priority="31" />
+      <Item value="Select`2" priority="26" />
+      <Item value="ElementClient" priority="26" />
+      <Item value="Handle" priority="31" />
+      <Item value="PlayerBase" priority="32" />
+      <Item value="playerBase" priority="32" />
+      <Item value="Pid" priority="31" />
+      <Item value="pr" priority="65" />
+      <Item value="client" priority="127" />
+      <Item value="_client" priority="224" />
+      <Item value="MemFunctions`0" priority="58" />
+      <Item value="Chatobj`0" priority="31" />
+      <Item value="FetchCount" priority="63" />
+      <Item value="clientSelect" priority="95" />
+      <Item value="Content" priority="31" />
+      <Item value="clients" priority="64" />
+      <Item value="ForEach`1" priority="26" />
+      <Item value="ec" priority="97" />
+      <Item value="TimeSpan`0" priority="31" />
+      <Item value="DispatcherTimer`0" priority="63" />
+      <Item value="Single`1" priority="26" />
+      <Item value="ListBoxItem`0" priority="27" />
+      <Item value="e" priority="95" />
+      <Item value="Enter" priority="16" />
+      <Item value="BaseCall" priority="95" />
+      <Item value="message" priority="351" />
+      <Item value="_ConstructorInfo`0" priority="31" />
+      <Item value="TextElement`0" priority="31" />
+      <Item value="tr" priority="95" />
+      <Item value="Thickness`0" priority="32" />
+      <Item value="IsReadOnly" priority="32" />
+      <Item value="Dictionary&lt;Scopes,string&gt;" priority="28" />
+      <Item value="s" priority="64" />
+      <Item value="Run`0" priority="32" />
+      <Item value="is" priority="31" />
+      <Item value="TabControl`0" priority="31" />
+      <Item value="_prefixes" priority="31" />
+      <Item value="try" priority="31" />
+      <Item value="catch" priority="31" />
+      <Item value="Exception`0" priority="31" />
+      <Item value="KeyNotFoundException`0" priority="31" />
+      <Item value="GetPrefix`0" priority="63" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="50" />
+      <Item value="AsReadOnly`0" priority="27" />
+      <Item value="Distinct`1" priority="26" />
+      <Item value="Except`1" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PWChat.PW+CHATOBJ">
+      <Item value="msgId" priority="27" />
+      <Item value="msgScope" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Enum">
+      <Item value="GetNames`0" priority="26" />
+      <Item value="GetValues`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TabControl">
+      <Item value="ItemBindingGroup" priority="49" />
+      <Item value="Items" priority="49" />
+      <Item value="Dispatcher" priority="76" />
+      <Item value="SelectedItem" priority="26" />
+      <Item value="SelectionChanged" priority="26" />
+      <Item value="SelectedIndex" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Add`0" priority="53" />
+      <Item value="Cast`1" priority="26" />
+      <Item value="Clear`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PWChat.Scopes">
+      <Item value="ToString`0" priority="131" />
+      <Item value="To`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Visibility">
+      <Item value="Hidden" priority="27" />
+      <Item value="Visible" priority="26" />
+      <Item value="Collapsed" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TabItem">
+      <Item value="Content" priority="134" />
+      <Item value="Name" priority="108" />
+      <Item value="Visibility" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="81" />
+      <Item value="Format`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.Dispatcher">
+      <Item value="Invoke`0" priority="76" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PWChat.PW">
+      <Item value="GetMessages`0" priority="22" />
+      <Item value="NewMessage" priority="26" />
+      <Item value="SendMessage`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="First`1" priority="26" />
+      <Item value="Empty`1" priority="26" />
+      <Item value="Any`1" priority="26" />
+      <Item value="Single`1" priority="45" />
+      <Item value="ToArray`1" priority="103" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PWChat.ChatMessage">
+      <Item value="Scope" priority="215" />
+      <Item value="Message" priority="26" />
+      <Item value="Nickname" priority="216" />
+      <Item value="Raw" priority="76" />
+      <Item value="Text" priority="191" />
+      <Item value="ItemId" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Text" priority="215" />
+      <Item value="Clear`0" priority="53" />
+      <Item value="Background" priority="26" />
+      <Item value="ScrollToEnd`0" priority="26" />
+      <Item value="CaretIndex" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Timer">
+      <Item value="Change`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.RichTextBox">
+      <Item value="Document" priority="207" />
+      <Item value="AppendText`0" priority="80" />
+      <Item value="ScrollToEnd`0" priority="49" />
+      <Item value="Selection" priority="161" />
+      <Item value="SelectionBrush" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.FlowDocument">
+      <Item value="ContentStart" priority="26" />
+      <Item value="ContentEnd" priority="80" />
+      <Item value="Blocks" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.TextRange">
+      <Item value="Text" priority="26" />
+      <Item value="ApplyPropertyValue`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.BlockCollection">
+      <Item value="Clear`0" priority="27" />
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="GetBetween`0" priority="50" />
+      <Item value="GetAfter`0" priority="28" />
+      <Item value="StartsWith`0" priority="27" />
+      <Item value="Split`0" priority="26" />
+      <Item value="Empty`1" priority="26" />
+      <Item value="ContainsCi`0" priority="83" />
+      <Item value="Replace`0" priority="27" />
+      <Item value="IsEmpty`0" priority="27" />
+      <Item value="To`1" priority="27" />
+      <Item value="Length" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.Inline">
+      <Item value="Foreground" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PWChat.Scopes">
+      <Item value="World" priority="54" />
+      <Item value="Local" priority="22" />
+      <Item value="Squad" priority="54" />
+      <Item value="Faction" priority="50" />
+      <Item value="Whisper" priority="55" />
+      <Item value="Trade" priority="55" />
+      <Item value="System" priority="27" />
+      <Item value="GenInfo" priority="27" />
+      <Item value="LocalInfoB" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Colors">
+      <Item value="Yellow" priority="26" />
+      <Item value="White" priority="27" />
+      <Item value="Green" priority="50" />
+      <Item value="Blue" priority="83" />
+      <Item value="LightBlue" priority="78" />
+      <Item value="Brown" priority="22" />
+      <Item value="Gray" priority="22" />
+      <Item value="BurlyWood" priority="26" />
+      <Item value="DeepSkyBlue" priority="22" />
+      <Item value="GreenYellow" priority="22" />
+      <Item value="LimeGreen" priority="45" />
+      <Item value="SpringGreen" priority="26" />
+      <Item value="Gold" priority="22" />
+      <Item value="LawnGreen" priority="22" />
+      <Item value="MediumSeaGreen" priority="22" />
+      <Item value="LightSkyBlue" priority="27" />
+      <Item value="DarkSlateGray" priority="22" />
+      <Item value="LightCyan" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.FontWeights">
+      <Item value="ExtraBold" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PWChat.MainWindow">
+      <Item value="Background" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.TextSelection">
+      <Item value="Start" priority="26" />
+      <Item value="Select`0" priority="53" />
+      <Item value="Text" priority="26" />
+      <Item value="End" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Brushes">
+      <Item value="GreenYellow" priority="27" />
+      <Item value="SeaGreen" priority="22" />
+      <Item value="Green" priority="22" />
+      <Item value="LightSeaGreen" priority="22" />
+      <Item value="PaleGreen" priority="22" />
+      <Item value="LimeGreen" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Documents.TextElement">
+      <Item value="FontWeightProperty" priority="22" />
+      <Item value="FontSizeProperty" priority="27" />
+      <Item value="MouseUpEvent" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="XamlCodeCompletionContext">
+      <Item value="TextBox`0" priority="11" />
+      <Item value="Content" priority="5" />
+      <Item value="icon.ico" priority="5" />
+      <Item value="Black" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Shell.TaskbarItemInfo">
+      <Item value="Overlay" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="AppendText`0" priority="26" />
+      <Item value="AppendAllText`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="Replace`0" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.DispatcherTimer">
+      <Item value="Tick" priority="26" />
+      <Item value="Interval" priority="26" />
+      <Item value="Start`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="WaitForInputIdle`0" priority="56" />
+      <Item value="Id" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PWChat.ElementClient">
+      <Item value="Pid" priority="81" />
+      <Item value="Handle" priority="161" />
+      <Item value="Nickname" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PWChat.PW+Chatobj">
+      <Item value="msgId" priority="27" />
+      <Item value="msgScope" priority="26" />
+      <Item value="itemId" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PWChat.ElementClient">
+      <Item value="GetClients`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="Items" priority="53" />
+      <Item value="SelectedItem" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromMilliseconds`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBoxItem">
+      <Item value="Tag" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="To`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextChangedEventArgs">
+      <Item value="Changes" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Contains`0" priority="26" />
+      <Item value="Any`1" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.KeyEventArgs">
+      <Item value="Key" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.Run">
+      <Item value="MouseDown" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.Paragraph">
+      <Item value="Inlines" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.InlineCollection">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.SelectionChangedEventArgs">
+      <Item value="Source" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

@@ -1,0 +1,56 @@
+﻿<Window x:Class="PWChat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="WindowLoaded" Activated="WindowActivated"
+        Icon="/icon.ico">
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo />
+    </Window.TaskbarItemInfo>
+    <Window.Resources>
+        <DataTemplate x:Key="OverlayIcon">
+            <Grid Width="20" Height="20">
+                <Ellipse Fill="Red"
+                        Stroke="White"
+                        StrokeThickness="2"/>
+
+                <TextBlock Text="{Binding}"
+                        TextAlignment="Center"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        Height="16"
+                        VerticalAlignment="Center"
+                        FontSize="12">
+                <TextBlock.Effect>
+                    <DropShadowEffect ShadowDepth="0" />
+                </TextBlock.Effect>
+                </TextBlock>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Expander Header="Settings" Margin="0,0,0,0" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Label Content="Filter:" />
+                <TextBox x:Name="filter" x:FieldModifier="private" Margin="56,0,0,0" />
+
+                <Label Content="Clients:" Grid.Row="1" />
+                <ListBox Grid.Row="1" x:Name="clientSelect" Margin="56,0,117,0" x:FieldModifier="private" />
+                <Button Content="Attach" Grid.Row="1" Margin="390,0,0,0" Click="AttachClick" />
+            </Grid>
+        </Expander>
+        <TabControl Margin="0,0,0,0" x:Name="tabControl" x:FieldModifier="private" Background="{x:Null}" SelectionChanged="TabControlSelectionChanged" Grid.Row="1" />
+
+      <TextBox Grid.Row="2" x:Name="message" KeyUp="MessageKeyUp" x:FieldModifier="private" />
+    </Grid>
+</Window>
