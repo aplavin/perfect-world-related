@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FoxBotOffsets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FreezeFunction>AF78D4</FreezeFunction>
+  <FreezeFlag>B28534</FreezeFlag>
+  <GameRun>AF7464</GameRun>
+  <HostPlayerStruct>34</HostPlayerStruct>
+  <PlayerName>638</PlayerName>
+  <PlayerHP>490</PlayerHP>
+  <PlayerMP>494</PlayerMP>
+  <PlayerMaxHP>4D0</PlayerMaxHP>
+  <PlayerMaxMP>4D4</PlayerMaxMP>
+  <PlayerTargetID>B60</PlayerTargetID>
+  <TargetMobHP>12C</TargetMobHP>
+  <TargetMobMaxHP>16C</TargetMobMaxHP>
+  <HPPotionCD>A0C</HPPotionCD>
+  <MPPotionCD>A14</MPPotionCD>
+  <PetStruct>1060</PetStruct>
+  <PetSlotID>8</PetSlotID>
+  <PetHPPrc>1C</PetHPPrc>
+  <PetHP>38</PetHP>
+</FoxBotOffsets>

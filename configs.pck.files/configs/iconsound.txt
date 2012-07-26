@@ -1,0 +1,78 @@
+1956	SFX\Item\EquipSound\DownGem.wav
+1957	SFX\Item\EquipSound\DownGem.wav
+1958	SFX\Item\EquipSound\DownGem.wav
+1959	SFX\Item\EquipSound\DownGem.wav
+1960	SFX\Item\EquipSound\DownGem.wav
+
+1952	SFX\Item\EquipSound\DownWeaponArrow.wav
+1953	SFX\Item\EquipSound\DownWeaponArrow.wav
+1954	SFX\Item\EquipSound\DownWeaponArrow.wav
+
+787	SFX\Item\EquipSound\DownWood.wav
+788	SFX\Item\EquipSound\DownMail.wav
+789	SFX\Item\EquipSound\DownHard.wav
+791	SFX\Item\EquipSound\DownHard.wav
+794	SFX\Item\EquipSound\DownLeather.wav
+
+762	SFX\Item\EquipSound\DownGem.wav
+764	SFX\Item\EquipSound\DownGem.wav
+765	SFX\Item\EquipSound\DownGem.wav
+766	SFX\Item\EquipSound\DownGem.wav
+767	SFX\Item\EquipSound\DownGem.wav
+768	SFX\Item\EquipSound\DownGem.wav
+769	SFX\Item\EquipSound\DownGem.wav
+770	SFX\Item\EquipSound\DownGem.wav
+
+153	SFX\Item\EquipSound\DownCloth.wav
+202	SFX\Item\EquipSound\DownCloth.wav
+218	SFX\Item\EquipSound\DownCloth.wav
+317	SFX\Item\EquipSound\DownCloth.wav
+356	SFX\Item\EquipSound\DownCloth.wav
+370	SFX\Item\EquipSound\DownCloth.wav
+
+140	SFX\Item\EquipSound\DownLeather.wav
+188	SFX\Item\EquipSound\DownLeather.wav
+219	SFX\Item\EquipSound\DownLeather.wav
+2875	SFX\Item\EquipSound\DownLeather.wav
+
+127	SFX\Item\EquipSound\DownMail.wav
+163	SFX\Item\EquipSound\DownMail.wav
+217	SFX\Item\EquipSound\DownMail.wav
+318	SFX\Item\EquipSound\DownMail.wav
+347	SFX\Item\EquipSound\DownMail.wav
+
+243	SFX\Item\EquipSound\DownHard.wav
+244	SFX\Item\EquipSound\DownHard.wav
+
+172	SFX\Item\EquipSound\DownGem.wav
+241	SFX\Item\EquipSound\DownGem.wav
+245	SFX\Item\EquipSound\DownGem.wav
+248	SFX\Item\EquipSound\DownGem.wav
+250	SFX\Item\EquipSound\DownGem.wav
+
+253	SFX\Item\EquipSound\DownCloth.wav
+
+56	SFX\Item\EquipSound\DownWeaponLong.wav
+66	SFX\Item\EquipSound\DownWeaponLong.wav
+86	SFX\Item\EquipSound\DownWeaponLong.wav
+
+76	SFX\Item\EquipSound\DownWeaponStaff.wav
+338	SFX\Item\EquipSound\DownWeaponStaff.wav
+340	SFX\Item\EquipSound\DownWeaponStaff.wav
+
+2	SFX\Item\EquipSound\DownWeaponLight.wav
+18	SFX\Item\EquipSound\DownWeaponLight.wav
+46	SFX\Item\EquipSound\DownWeaponLight.wav
+35	SFX\Item\EquipSound\DownWeaponLight.wav
+336	SFX\Item\EquipSound\DownWeaponLight.wav
+184	SFX\Item\EquipSound\DownWeaponLight.wav
+
+339	SFX\Item\EquipSound\DownWeaponHeavy.wav
+10	SFX\Item\EquipSound\DownWeaponHeavy.wav
+98	SFX\Item\EquipSound\DownWeaponHeavy.wav
+118	SFX\Item\EquipSound\DownWeaponHeavy.wav
+99	SFX\Item\EquipSound\DownWeaponHeavy.wav
+
+96	SFX\Item\EquipSound\DownWeaponBow.wav
+210	SFX\Item\EquipSound\DownWeaponBow.wav
+209	SFX\Item\EquipSound\DownWeaponBow.wav

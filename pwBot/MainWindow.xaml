@@ -1,0 +1,116 @@
+﻿<Window x:Class="pwBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="pwBot"
+        UseLayoutRounding="True" Height="450" Width="350"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing">
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo/>
+    </Window.TaskbarItemInfo>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+            <MenuItem Header="File" />
+        </Menu>
+
+        <TabControl Grid.Row="1" Margin="12,0,12,12">
+            <TabItem Header="Start">
+                <StackPanel>
+                    <Label Content="Select a character:" />
+                    <DataGrid Name="charactersGrid" IsReadOnly="True" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Path=PlayerInfo.Name}" Header="Name" />
+                            <DataGridTextColumn Binding="{Binding Path=PlayerInfo.Class}" Header="Class" />
+                            <DataGridTextColumn Binding="{Binding Path=PlayerInfo.Level}" Header="Lvl" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <CheckBox Content="Unfreeze" Name="unfreezeCb" Checked="unfreezeCb_Checked" Unchecked="unfreezeCb_Unchecked" />
+                    <Button Content="Attach to selected" Click="attachBtn_Click"/>
+                    <ComboBox Name="configsCb" />
+                    <Button Content="Update list" Click="updateCharBtn_Click"/>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Environment">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel>
+                        <Expander Header="Mobs">
+                            <DataGrid Name="mobsGrid" MouseDoubleClick="mobsGrid_MouseDoubleClick" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Binding="{Binding Path=Name}" Header="Name" />
+                                    <DataGridTextColumn Binding="{Binding Path=Level}" Header="Lvl" />
+                                    <DataGridTextColumn Binding="{Binding Path=Distance}" Header="Distance" />
+                                    <DataGridTextColumn Binding="{Binding Path=Id}" Header="Id" />
+                                    <DataGridTextColumn Binding="{Binding Path=WorldId}" Header="World Id" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Expander>
+
+                        <Expander Header="NPCs">
+                            <DataGrid Name="npcsGrid" MouseDoubleClick="npcsGrid_MouseDoubleClick" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Binding="{Binding Path=Name}" Header="Name" />
+                                    <DataGridTextColumn Binding="{Binding Path=Distance}" Header="Distance" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Expander>
+
+                        <Expander Header="Loot">
+                            <DataGrid Name="lootGrid" MouseDoubleClick="lootGrid_MouseDoubleClick" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Binding="{Binding Path=Name}" Header="Name" />
+                                    <DataGridTextColumn Binding="{Binding Path=Type}" Header="Type" />
+                                    <DataGridTextColumn Binding="{Binding Path=Distance}" Header="Distance" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Expander>
+
+                        <Expander Header="Resources">
+                            <DataGrid Name="resourcesGrid" MouseDoubleClick="resourcesGrid_MouseDoubleClick" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Binding="{Binding Path=Name}" Header="Name" />
+                                    <DataGridTextColumn Binding="{Binding Path=Type}" Header="Type" />
+                                    <DataGridTextColumn Binding="{Binding Path=Distance}" Header="Distance" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Expander>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem Header="Info">
+                <StackPanel>
+                    <GroupBox Header="Me">
+                        <StackPanel>
+                            <Label Name="levelLbl" Content="Level: " />
+                            <Label Name="hpLbl" Content="HP:" />
+                            <ProgressBar Name="hpBar" Minimum="0" Height="24" Foreground="Red"/>
+                            <Label Name="mpLbl" Content="MP:" />
+                            <ProgressBar Name="mpBar" Minimum="0" Height="24"/>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <GroupBox Header="Target mob">
+                        <StackPanel>
+                            <Label Name="tLevelLbl" Content="Level: " />
+                            <Label Name="tHpLbl" Content="HP:" />
+                            <ProgressBar Name="tHpBar" Minimum="0" Height="24" Foreground="Red"/>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+        <ToolBar Grid.Row="2">
+            <ToggleButton Name="startBtn" Checked="startBtn_Checked" Unchecked="startBtn_Unchecked">
+                <Image Source="/Images/start.png" Opacity="0.5" />
+            </ToggleButton>
+        </ToolBar>
+    </Grid>
+</Window>

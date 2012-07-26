@@ -1,0 +1,14 @@
+﻿<Window x:Class="pwHHbot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        Loaded="Window_Loaded">
+    <StackPanel>
+        <Label Name="charsStateLbl" />
+        <Button Name="startBtn" Content="Start" Click="startBtn_Click" />
+        <Label Name="assasinLbl" />
+        <ProgressBar Name="assasinPb" />
+        <Label Name="clericLbl" />
+        <ProgressBar Name="clericPb" />
+    </StackPanel>
+</Window>

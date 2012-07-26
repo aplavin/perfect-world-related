@@ -1,0 +1,245 @@
+﻿<Window x:Class="scripterPw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+        SnapsToDevicePixels="True" UseLayoutRounding="True"
+        Title="[scripterPw]"        
+        WindowState="Maximized"
+        Loaded="WindowLoaded" Closing="WindowClosing"
+        mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="452" d:DesignWidth="488" SizeToContent="WidthAndHeight">
+
+    <Grid>
+        <ad:DockingManager Name="dockManager">
+            <ad:ResizingPanel Orientation="Vertical">
+
+                <ad:ResizingPanel 
+                    Orientation="Horizontal"
+                    ad:ResizingPanel.ResizeHeight="100">
+
+                    <ad:DockablePane>
+                        <ad:DockableContent Title="PW clients">
+                            <StackPanel Orientation="Horizontal">
+                                <Button Click="UpdateClientsClick">
+                                    <Image Stretch="None" Source="images/refresh.png" />
+                                </Button>
+                                <DataGrid Name="clientsGrid" AutoGenerateColumns="False">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Name" Binding="{Binding HostPlayer.Name}" />
+                                        <DataGridTextColumn Header="Class" Binding="{Binding HostPlayer.Class}" />
+                                        <DataGridTextColumn Header="Level" Binding="{Binding HostPlayer.Level}" />
+                                        
+                                        <DataGridTemplateColumn Header="Coords">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock MouseDown="CoordsMouseDown" Text="{Binding HostPlayer.Coords}" />
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                        
+                                        <DataGridTemplateColumn Header="Actions">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Orientation="Horizontal" Background="LightBlue">
+
+                                                        <StackPanel.Resources>
+                                                            <Style TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                                                                <Style.Triggers>
+                                                                    <Trigger Property="IsEnabled" Value="False">
+                                                                        <Setter Property="Opacity" Value="0.5" />
+                                                                    </Trigger>
+                                                                </Style.Triggers>
+                                                                <Setter Property="Padding" Value="5,3,5,3" />
+                                                                <Setter Property="Margin" Value="2,0,2,0" />
+                                                            </Style>
+                                                        </StackPanel.Resources>
+                                                        
+                                                        <Button Tag="on" ToolTip="Unfreeze" Click="UnfreezeClick">
+                                                            <Image Source="images/unfreeze.png" Stretch="None" />
+                                                        </Button>
+                                                        <Button Tag="off" ToolTip="Cancel unfreeze" Click="UnfreezeClick">
+                                                            <Image Source="images/freeze.png" Stretch="None" />
+                                                        </Button>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </StackPanel>
+                        </ad:DockableContent>
+                    </ad:DockablePane>
+
+                    <ad:DockablePane>
+                        <ad:DockableContent Title="Scripts">
+                            <StackPanel Orientation="Horizontal">
+                                <Button Click="UpdateScriptsClick">
+                                    <Image Stretch="None" Source="images/refresh.png" />
+                                </Button>
+
+                                <DataGrid Name="scriptsGrid" AutoGenerateColumns="False" IsReadOnly="True" HeadersVisibility="None" SelectedCellsChanged="scriptsGrid_SelectedCellsChanged">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Script" Binding="{Binding Name}" MinWidth="100" />
+
+                                        <DataGridTemplateColumn Header="Running">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Ellipse Name="runIndicator" Width="16" Height="16" HorizontalAlignment="Center" />
+
+                                                    <DataTemplate.Triggers>
+                                                        <DataTrigger Binding="{Binding IsRunning}" Value="True">
+                                                            <Setter TargetName="runIndicator" Property="Fill" Value="LawnGreen" />
+                                                            <Setter TargetName="runIndicator" Property="ToolTip" Value="Running" />
+                                                        </DataTrigger>
+                                                        <DataTrigger Binding="{Binding IsRunning}" Value="False">
+                                                            <Setter TargetName="runIndicator" Property="Fill" Value="LightGray" />
+                                                            <Setter TargetName="runIndicator" Property="ToolTip" Value="Not running" />
+                                                        </DataTrigger>
+                                                    </DataTemplate.Triggers>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+
+                                        <DataGridTemplateColumn Header="Actions">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Background="LightBlue">
+
+                                                        <StackPanel.Resources>
+                                                            <Style TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                                                                <Style.Triggers>
+                                                                    <Trigger Property="IsEnabled" Value="False">
+                                                                        <Setter Property="Opacity" Value="0.5" />
+                                                                    </Trigger>
+                                                                </Style.Triggers>
+                                                                <Setter Property="Padding" Value="5,3,5,3" />
+                                                                <Setter Property="Margin" Value="2,0,2,0" />
+                                                            </Style>
+                                                        </StackPanel.Resources>
+
+                                                        <Button Click="StartScriptClick">
+                                                            <Image Source="images\start.png" Stretch="None" />
+                                                        </Button>
+                                                        <Button Click="StopScriptClick" IsEnabled="{Binding IsRunning}">
+                                                            <Image Source="images\stop.png" Stretch="None" />
+                                                        </Button>
+
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+
+                            </StackPanel>
+                        </ad:DockableContent>
+                    </ad:DockablePane>
+
+                </ad:ResizingPanel>
+
+                <ad:ResizingPanel Orientation="Horizontal">
+
+                    <ad:DockablePane ad:ResizingPanel.ResizeWidth="300">
+
+                        <ad:DockableContent Selector.IsSelected="True" Title="Classes" Icon="images/class.png">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                                <TreeView Name="classesTree" Grid.Row="0" />
+                                <GridSplitter HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="3" Grid.Row="1" />
+                                <TreeView ItemsSource="{Binding ElementName=classesTree, Path=SelectedItem.Tag}" Grid.Row="2" />
+                            </Grid>
+                        </ad:DockableContent>
+
+                        <ad:DockableContent Title="Methods" Icon="images/method.png">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                                <TreeView Name="methodsTree" Grid.Row="0" />
+                                <GridSplitter HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="3" Grid.Row="1" />
+                                <Label Content="{Binding ElementName=methodsTree, Path=SelectedItem.Tag}" Grid.Row="2" />
+                            </Grid>
+                        </ad:DockableContent>
+
+                        <ad:DockableContent Title="Game info" Icon="images/star.png">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                                <StackPanel Orientation="Horizontal" Grid.Row="0">
+                                    <Button Click="UpdateGameinfoClick">
+                                        <Image Stretch="None" Source="images/refresh.png" />
+                                    </Button>
+
+                                    <ComboBox Name="gameinfoCombo" SelectionChanged="UpdateGameinfoClick">
+                                        <ComboBoxItem Content="Mobs" Tag="mobs" Selector.IsSelected="True" />
+                                        <ComboBoxItem Content="Pets" Tag="pets" />
+                                        <ComboBoxItem Content="NPCs" Tag="npcs" />
+                                        <ComboBoxItem Content="Players" Tag="players" />
+                                        <Separator />
+                                        <ComboBoxItem Content="Loot" Tag="loot" />
+                                        <ComboBoxItem Content="Mines" Tag="mines" />
+                                        <Separator />
+                                        <ComboBoxItem Content="Skills" Tag="skills" />
+                                        <ComboBoxItem Content="Inventory" Tag="inventory" />
+                                        <ComboBoxItem Content="Equipment" Tag="equip" />
+                                        <Separator />
+                                        <ComboBoxItem Content="My catshop" Tag="mycat" />
+                                        <ComboBoxItem Content="Opened catshop" Tag="opencat" />
+                                    </ComboBox>
+                                </StackPanel>
+
+                                <DataGrid Name="gameinfoGrid" Grid.Row="1" />
+                            </Grid>
+                        </ad:DockableContent>
+
+                    </ad:DockablePane>
+
+                    <ad:DocumentPane>
+                        <ad:DocumentContent Title="{Binding ElementName=scriptsGrid, Path=SelectedItem.Name}">
+                            <avalonEdit:TextEditor
+                                xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+                                Name="scriptTb"
+                                TextChanged="scriptTb_TextChanged"
+                                KeyUp="scriptTb_KeyUp"
+                                FontFamily="Consolas" FontSize="10pt"
+                                SyntaxHighlighting="Boo"
+                                ShowLineNumbers="True"
+                                HorizontalScrollBarVisibility="Auto"
+                                VerticalScrollBarVisibility="Auto" />
+                        </ad:DocumentContent>
+                    </ad:DocumentPane>
+
+                </ad:ResizingPanel>
+
+                <ad:DockablePane ad:ResizingPanel.ResizeHeight="150">
+                    <ad:DockableContent Title="Output">
+                        <RichTextBox 
+                                Name="logTb"
+                                VerticalScrollBarVisibility="Auto" 
+                                IsReadOnly="True"
+                                HorizontalScrollBarVisibility="Auto">
+                            <RichTextBox.Resources>
+                                <Style TargetType="{x:Type Paragraph}">
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </RichTextBox.Resources>
+                        </RichTextBox>
+                    </ad:DockableContent>
+                </ad:DockablePane>
+
+            </ad:ResizingPanel>
+        </ad:DockingManager>
+    </Grid>
+</Window>

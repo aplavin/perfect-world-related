@@ -1,0 +1,721 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:PwClient.cs" caret="1247" fromTop="25" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:addresses.ini" caret="38" fromTop="2" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:ActionStructs.cs" caret="4249" fromTop="38" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Coords.cs" caret="162" fromTop="0" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Chat.cs" caret="4881" fromTop="18" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:NpcStruct.cs" caret="133" fromTop="5" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:PlayerStruct.cs" caret="133" fromTop="5" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:ChatMessageStruct.cs" caret="0" fromTop="0" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:MobStruct.cs" caret="163" fromTop="6" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:ResourceLootStruct.cs" caret="150" fromTop="5" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="7073" fromTop="30" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Addresses.cs" caret="1945" fromTop="7" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:PlayerInfo.cs" caret="3180" fromTop="16" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainWindow.xaml.cs" caret="1075" fromTop="17" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainLogic.cs" caret="8429" fromTop="5" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainWindow.xaml" caret="528" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Chat.cs" caret="4881" fromTop="18" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:ChatMessageStruct.cs" caret="133" fromTop="5" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:MobStruct.cs" caret="133" fromTop="5" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="4429" fromTop="4" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:NpcStruct.cs" caret="692" fromTop="31" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:NpcStruct.cs" caret="0" fromTop="0" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="8817" fromTop="15" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:PlayerStruct.cs" caret="1102" fromTop="35" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:PlayerStruct.cs" caret="133" fromTop="5" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:NpcStruct.cs" caret="133" fromTop="5" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="8826" fromTop="30" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:ResourceLootStruct.cs" caret="512" fromTop="4" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:ResourceLootStruct.cs" caret="512" fromTop="14" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="7418" fromTop="1" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="7841" fromTop="7" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:ResourceLootStruct.cs" caret="343" fromTop="11" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="8403" fromTop="6" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/d:Structs/f:ResourceLootStruct.cs" caret="150" fromTop="5" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="6162" fromTop="11" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="6439" fromTop="11" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="5780" fromTop="3" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Environment.cs" caret="6795" fromTop="13" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainWindow.xaml.cs" caret="97" fromTop="9" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainWindow.xaml.cs" caret="175" fromTop="7" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainWindow.xaml.cs" caret="410" fromTop="8" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Addresses.cs" caret="2254" fromTop="14" />
+      <File id="B18182E2-F759-48F4-8CE7-B2D1EEC71955/f:Addresses.cs" caret="2616" fromTop="21" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainWindow.xaml.cs" caret="861" fromTop="9" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainWindow.xaml.cs" caret="1075" fromTop="17" />
+      <File id="451F3FA6-D17D-4305-B6E7-FB14BF325794/f:MainLogic.cs" caret="9286" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="XamlCodeCompletionContext">
+      <Item value="Images" priority="5" />
+      <Item value="start.png" priority="11" />
+      <Item value="DataGridHyperlinkColumn`0" priority="5" />
+      <Item value="DisplayMemberBinding" priority="5" />
+      <Item value="ColumnDefinitions" priority="5" />
+      <Item value="ScrollViewer`0" priority="5" />
+      <Item value="TaskbarItemInfo" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="startBtn" priority="63" />
+      <Item value="public" priority="2327" />
+      <Item value="class" priority="94" />
+      <Item value="string" priority="539" />
+      <Item value="private" priority="223" />
+      <Item value="int" priority="987" />
+      <Item value="void" priority="799" />
+      <Item value="Dispatcher" priority="31" />
+      <Item value="UpdateCharacters`0" priority="63" />
+      <Item value="static" priority="799" />
+      <Item value="CharacterInfo`0" priority="31" />
+      <Item value="var" priority="1023" />
+      <Item value="return" priority="698" />
+      <Item value="processes" priority="31" />
+      <Item value="Select`2" priority="189" />
+      <Item value="new" priority="1119" />
+      <Item value="PwClient`0" priority="256" />
+      <Item value="clients" priority="31" />
+      <Item value="Pid" priority="58" />
+      <Item value="cl" priority="229" />
+      <Item value="Name" priority="96" />
+      <Item value="Lvl" priority="27" />
+      <Item value="Hp" priority="27" />
+      <Item value="Mp" priority="32" />
+      <Item value="GameX" priority="31" />
+      <Item value="GameY" priority="31" />
+      <Item value="GameZ" priority="31" />
+      <Item value="charactersGrid" priority="191" />
+      <Item value="MainLogic`0" priority="1275" />
+      <Item value="ForEach`1" priority="26" />
+      <Item value="IDisposable`0" priority="63" />
+      <Item value="Dispose`0" priority="31" />
+      <Item value="Mem`0" priority="159" />
+      <Item value="Handle" priority="127" />
+      <Item value="Process`0" priority="95" />
+      <Item value="Process" priority="63" />
+      <Item value="process" priority="31" />
+      <Item value="PlayerInfo" priority="60" />
+      <Item value="PwClient" priority="28" />
+      <Item value="Cnt" priority="63" />
+      <Item value="FileStyleUriParser`0" priority="63" />
+      <Item value="ActiveClients" priority="27" />
+      <Item value="readonly" priority="58" />
+      <Item value="List&lt;PwClient&gt;" priority="28" />
+      <Item value="DebuggerStepThroughAttribute`0" priority="31" />
+      <Item value="ActiveClient" priority="1913" />
+      <Item value="First`1" priority="188" />
+      <Item value="selected" priority="31" />
+      <Item value="Title" priority="31" />
+      <Item value="Mob`0" priority="192" />
+      <Item value="if" priority="1247" />
+      <Item value="allMobsLb" priority="191" />
+      <Item value="Distinct`1" priority="26" />
+      <Item value="m1" priority="63" />
+      <Item value="IEqualityComparer" priority="26" />
+      <Item value="m2" priority="31" />
+      <Item value="OrderBy`2" priority="26" />
+      <Item value="m" priority="607" />
+      <Item value="selectedMobsLb" priority="223" />
+      <Item value="Serializable" priority="53" />
+      <Item value="CharacterSettings`0" priority="127" />
+      <Item value="CharacterSettings" priority="119" />
+      <Item value="List" priority="63" />
+      <Item value="ActiveSettings" priority="540" />
+      <Item value="Coords`0" priority="383" />
+      <Item value="double" priority="95" />
+      <Item value="startCoordsBtn" priority="31" />
+      <Item value="ClientPath" priority="32" />
+      <Item value="radiusSld" priority="31" />
+      <Item value="Math`0" priority="127" />
+      <Item value="sldVal" priority="127" />
+      <Item value="radiusLbl" priority="58" />
+      <Item value="value" priority="95" />
+      <Item value="bool" priority="287" />
+      <Item value="sender" priority="63" />
+      <Item value="WorkingThread" priority="127" />
+      <Item value="Thread" priority="57" />
+      <Item value="for" priority="287" />
+      <Item value="Where`1" priority="164" />
+      <Item value="Death" priority="84" />
+      <Item value="mobs" priority="63" />
+      <Item value="Thread`0" priority="991" />
+      <Item value="continue" priority="191" />
+      <Item value="while" priority="511" />
+      <Item value="mob" priority="384" />
+      <Item value="antiKsCb" priority="31" />
+      <Item value="false" priority="63" />
+      <Item value="null" priority="127" />
+      <Item value="Loot`0" priority="95" />
+      <Item value="loot" priority="159" />
+      <Item value="l" priority="62" />
+      <Item value="iter" priority="63" />
+      <Item value="foreach" priority="223" />
+      <Item value="name" priority="63" />
+      <Item value="fileName" priority="96" />
+      <Item value="i" priority="287" />
+      <Item value="IsLess`1" priority="26" />
+      <Item value="Length" priority="77" />
+      <Item value="MobIds" priority="95" />
+      <Item value="MobNames" priority="63" />
+      <Item value="StartBot`0" priority="31" />
+      <Item value="Coords" priority="201" />
+      <Item value="Nini" priority="63" />
+      <Item value="Ini" priority="26" />
+      <Item value="IniDocument`0" priority="26" />
+      <Item value="configSource" priority="596" />
+      <Item value="objectId" priority="31" />
+      <Item value="configNameTb" priority="95" />
+      <Item value="conf" priority="31" />
+      <Item value="StartCoords" priority="31" />
+      <Item value="thr" priority="191" />
+      <Item value="FileNotFoundException" priority="26" />
+      <Item value="IniConfigSource" priority="28" />
+      <Item value="File`0" priority="127" />
+      <Item value="settings" priority="575" />
+      <Item value="float" priority="540" />
+      <Item value="gameCoords" priority="95" />
+      <Item value="else" priority="319" />
+      <Item value="this" priority="31" />
+      <Item value="x" priority="127" />
+      <Item value="y" priority="127" />
+      <Item value="z" priority="31" />
+      <Item value="DispatcherTimer" priority="28" />
+      <Item value="DispatcherTimer`0" priority="31" />
+      <Item value="timer" priority="95" />
+      <Item value="UpdateInfo`0" priority="31" />
+      <Item value="TextInputEvent" priority="31" />
+      <Item value="TimeSpan`0" priority="31" />
+      <Item value="unfreezeCb" priority="31" />
+      <Item value="Addresses`0" priority="223" />
+      <Item value="byte" priority="90" />
+      <Item value="Enumerable`0" priority="31" />
+      <Item value="lootGrid" priority="90" />
+      <Item value="mobsGrid" priority="31" />
+      <Item value="npcsGrid" priority="31" />
+      <Item value="Npc`0" priority="63" />
+      <Item value="enum" priority="63" />
+      <Item value="MonitoringDescriptionAttribute`0" priority="31" />
+      <Item value="CharacterModes`0" priority="31" />
+      <Item value="Grind" priority="16" />
+      <Item value="Single" priority="16" />
+      <Item value="switch" priority="127" />
+      <Item value="case" priority="159" />
+      <Item value="break" priority="191" />
+      <Item value="sparkId" priority="95" />
+      <Item value="decimal" priority="31" />
+      <Item value="default" priority="58" />
+      <Item value="ArgumentOutOfRangeException" priority="26" />
+      <Item value="skillId" priority="31" />
+      <Item value="Random`1" priority="54" />
+      <Item value="BitConverter`0" priority="53" />
+      <Item value="AliasText`0" priority="31" />
+      <Item value="DoCleric`0" priority="27" />
+      <Item value="levelLbl" priority="31" />
+      <Item value="hpBar" priority="95" />
+      <Item value="hpLbl" priority="31" />
+      <Item value="p" priority="31" />
+      <Item value="ReadShort`0" priority="31" />
+      <Item value="ReadString`0" priority="26" />
+      <Item value="processHandle" priority="31" />
+      <Item value="IntPtr`0" priority="31" />
+      <Item value="address" priority="31" />
+      <Item value="maxSize" priority="31" />
+      <Item value="Char`0" priority="31" />
+      <Item value="Chat" priority="60" />
+      <Item value="Enum`0" priority="31" />
+      <Item value="ClericMode`0" priority="63" />
+      <Item value="cm" priority="191" />
+      <Item value="mode" priority="127" />
+      <Item value="Buff" priority="16" />
+      <Item value="Heal" priority="16" />
+      <Item value="Follow" priority="33" />
+      <Item value="None" priority="50" />
+      <Item value="Squad" priority="16" />
+      <Item value="Cleric" priority="16" />
+      <Item value="buffId" priority="31" />
+      <Item value="clericMode" priority="32" />
+      <Item value="_clericMode" priority="31" />
+      <Item value="InvalidCastException`0" priority="63" />
+      <Item value="unfreezeCb_Unchecked`0" priority="31" />
+      <Item value="Resource`0" priority="96" />
+      <Item value="GetResources`0" priority="26" />
+      <Item value="res" priority="31" />
+      <Item value="resourcesGrid" priority="31" />
+      <Item value="configsCb" priority="63" />
+      <Item value="Directory`0" priority="31" />
+      <Item value="s" priority="31" />
+      <Item value="Path`0" priority="63" />
+      <Item value="tLevelLbl" priority="31" />
+      <Item value="tMob" priority="127" />
+      <Item value="tHpBar" priority="127" />
+      <Item value="tHpLbl" priority="31" />
+      <Item value="TaskbarItemInfo" priority="63" />
+      <Item value="Normal" priority="16" />
+      <Item value="loginsCb" priority="31" />
+      <Item value="path" priority="31" />
+      <Item value="exePath" priority="63" />
+      <Item value="ArgumentException" priority="53" />
+      <Item value="c" priority="95" />
+      <Item value="npc" priority="31" />
+      <Item value="GoXX`0" priority="64" />
+      <Item value="MoveTo`0" priority="63" />
+      <Item value="coords" priority="224" />
+      <Item value="height" priority="31" />
+      <Item value="override" priority="31" />
+      <Item value="ThreadStart`0" priority="31" />
+      <Item value="DoSingle`0" priority="64" />
+      <Item value="Any`1" priority="80" />
+      <Item value="_client" priority="604" />
+      <Item value="accuracy" priority="31" />
+      <Item value="ThreadStaticAttribute`0" priority="31" />
+      <Item value="GoTo`0" priority="63" />
+      <Item value="mobId" priority="127" />
+      <Item value="WaitForDeath`0" priority="31" />
+      <Item value="KillBoss`0" priority="31" />
+      <Item value="CollectLoot`0" priority="95" />
+      <Item value="true" priority="63" />
+      <Item value="destination" priority="31" />
+      <Item value="WaitForTeleportation`0" priority="31" />
+      <Item value="uint" priority="63" />
+      <Item value="worldId" priority="62" />
+      <Item value="PoolGenie`0" priority="63" />
+      <Item value="distance" priority="31" />
+      <Item value="WaitForDistance`0" priority="31" />
+      <Item value="KillSelectedMob`0" priority="63" />
+      <Item value="Action`0" priority="63" />
+      <Item value="HH" priority="16" />
+      <Item value="typeof" priority="64" />
+      <Item value="InstanceLogic`0" priority="63" />
+      <Item value="Action" priority="28" />
+      <Item value="Delegate`0" priority="31" />
+      <Item value="delegate" priority="31" />
+      <Item value="ThreadStart" priority="28" />
+      <Item value="mi" priority="31" />
+      <Item value="InstanceLogic" priority="120" />
+      <Item value="_leftTop" priority="63" />
+      <Item value="x1" priority="31" />
+      <Item value="y1" priority="31" />
+      <Item value="_rightBottom" priority="31" />
+      <Item value="Rectangle" priority="57" />
+      <Item value="room" priority="95" />
+      <Item value="undeadOnly" priority="26" />
+      <Item value="Frost" priority="16" />
+      <Item value="NotImplementedException" priority="29" />
+      <Item value="bossId" priority="63" />
+      <Item value="bombId" priority="95" />
+      <Item value="bomb" priority="31" />
+      <Item value="boss" priority="31" />
+      <Item value="FirstOrDefault`1" priority="26" />
+      <Item value="using" priority="30" />
+      <Item value="NumberStyles`0" priority="63" />
+      <Item value="key" priority="31" />
+      <Item value="Offsets`0" priority="63" />
+      <Item value="unsafe" priority="94" />
+      <Item value="ChatMessage" priority="26" />
+      <Item value="internal" priority="154" />
+      <Item value="FieldOffset" priority="31" />
+      <Item value="ResourceStruct" priority="26" />
+      <Item value="rf" priority="259" />
+      <Item value="LootType`0" priority="129" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Primitives.ToggleButton">
+      <Item value="Opacity" priority="26" />
+      <Item value="Content" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="GetProcessesByName`0" priority="26" />
+      <Item value="Start`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToArray`1" priority="272" />
+      <Item value="Any`1" priority="26" />
+      <Item value="Select`2" priority="26" />
+      <Item value="Where`1" priority="110" />
+      <Item value="WhereNot`1" priority="22" />
+      <Item value="ToList`1" priority="54" />
+      <Item value="OrderBy`2" priority="26" />
+      <Item value="First`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PwLib.PwClient">
+      <Item value="GetClients`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.PwClient">
+      <Item value="Pid" priority="50" />
+      <Item value="PlayerInfo" priority="815" />
+      <Item value="Environment" priority="486" />
+      <Item value="Process" priority="54" />
+      <Item value="PacketSender" priority="595" />
+      <Item value="ActionStructs" priority="460" />
+      <Item value="Unfreeze`0" priority="22" />
+      <Item value="UnfreezePermanent`0" priority="26" />
+      <Item value="CancelUnfreeze`0" priority="26" />
+      <Item value="Chat" priority="26" />
+      <Item value="Additional" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.PlayerInfo">
+      <Item value="Name" priority="82" />
+      <Item value="Level" priority="54" />
+      <Item value="MaxHp" priority="54" />
+      <Item value="MaxMp" priority="27" />
+      <Item value="Coords" priority="189" />
+      <Item value="Hp" priority="26" />
+      <Item value="TargetId" priority="242" />
+      <Item value="Chi" priority="53" />
+      <Item value="PlayerId" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Coords">
+      <Item value="ToString`0" priority="81" />
+      <Item value="Distance`0" priority="107" />
+      <Item value="GameX" priority="26" />
+      <Item value="X" priority="107" />
+      <Item value="Y" priority="53" />
+      <Item value="Z" priority="53" />
+      <Item value="DistancePlanar`0" priority="45" />
+      <Item value="ToGameString`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.DataGrid">
+      <Item value="Items" priority="53" />
+      <Item value="SelectedItem" priority="134" />
+      <Item value="ItemsSource" priority="76" />
+      <Item value="SelectedIndex" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@pwBot.MainLogic">
+      <Item value="GetCharaters`0" priority="80" />
+      <Item value="SelectCharacter`0" priority="26" />
+      <Item value="ActiveClient" priority="351" />
+      <Item value="GetMobs`0" priority="53" />
+      <Item value="ActiveSettings" priority="342" />
+      <Item value="StartBot`0" priority="26" />
+      <Item value="StopBot`0" priority="26" />
+      <Item value="CharacterSettings`0" priority="54" />
+      <Item value="CharacterInfo`0" priority="26" />
+      <Item value="GetResources`0" priority="22" />
+      <Item value="GetLoginConfigs`0" priority="26" />
+      <Item value="GetConfigs`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Add`0" priority="107" />
+      <Item value="Clear`0" priority="26" />
+      <Item value="Remove`0" priority="26" />
+      <Item value="RemoveAt`0" priority="22" />
+      <Item value="Cast`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PwLib.Mem">
+      <Item value="CloseProcess`0" priority="26" />
+      <Item value="OpenProcess`0" priority="26" />
+      <Item value="ResolveNestedPointer`0" priority="26" />
+      <Item value="WriteByte`0" priority="27" />
+      <Item value="WriteInt`0" priority="22" />
+      <Item value="WriteBytes`0" priority="26" />
+      <Item value="ReadString`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="Id" priority="26" />
+      <Item value="StartInfo" priority="27" />
+      <Item value="MainModule" priority="28" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="AppendAllText`0" priority="26" />
+      <Item value="Exists`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:pwBot.MainLogic+CharacterInfo">
+      <Item value="Pid" priority="26" />
+      <Item value="Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Environment">
+      <Item value="GetMobs`0" priority="180" />
+      <Item value="GetMob`0" priority="188" />
+      <Item value="GetLoot`0" priority="80" />
+      <Item value="GetNpcs`0" priority="53" />
+      <Item value="GetResources`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListView">
+      <Item value="ItemsSource" priority="103" />
+      <Item value="SelectedItem" priority="107" />
+      <Item value="Items" priority="134" />
+      <Item value="SelectedIndex" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Mob">
+      <Item value="Id" priority="404" />
+      <Item value="Level" priority="80" />
+      <Item value="Coords" priority="80" />
+      <Item value="CurrentAction" priority="188" />
+      <Item value="MaxHp" priority="80" />
+      <Item value="WorldId" priority="297" />
+      <Item value="Hp" priority="53" />
+      <Item value="Distance" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:pwBot.MainLogic+CharacterSettings">
+      <Item value="MobIds" priority="207" />
+      <Item value="StartCoords" priority="134" />
+      <Item value="Radius" priority="81" />
+      <Item value="AntiKs" priority="80" />
+      <Item value="Save`0" priority="26" />
+      <Item value="MobNames" priority="22" />
+      <Item value="ExitOnDeath" priority="54" />
+      <Item value="Mode" priority="130" />
+      <Item value="UseSpark" priority="107" />
+      <Item value="UseAttack" priority="26" />
+      <Item value="SkillIds" priority="107" />
+      <Item value="PlayerId" priority="53" />
+      <Item value="BuffIds" priority="54" />
+      <Item value="HHSelectedMethod" priority="54" />
+      <Item value="FrostBoss" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Button">
+      <Item value="Content" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.ProcessStartInfo">
+      <Item value="FileName" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Slider">
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Pow`0" priority="53" />
+      <Item value="Min`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Label">
+      <Item value="Content" priority="135" />
+      <Item value="Template" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Image">
+      <Item value="Opacity" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Abort`0" priority="22" />
+      <Item value="Start`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.PacketSender">
+      <Item value="ResurrectToTown`0" priority="26" />
+      <Item value="Select`0" priority="215" />
+      <Item value="RegularAttack`0" priority="80" />
+      <Item value="LogOut`0" priority="26" />
+      <Item value="UseSkillWithoutCastTime`0" priority="45" />
+      <Item value="UseSkill`0" priority="107" />
+      <Item value="DeselectTarget`0" priority="22" />
+      <Item value="AcceptQuest`0" priority="22" />
+      <Item value="UseGenieSkill`0" priority="26" />
+      <Item value="CancelAction`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="IsOneOf`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Empty`1" priority="27" />
+      <Item value="Find`0" priority="27" />
+      <Item value="First`1" priority="49" />
+      <Item value="Any`1" priority="54" />
+      <Item value="Last`1" priority="26" />
+      <Item value="Where`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="905" />
+      <Item value="FreeNamedDataSlot`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.CheckBox">
+      <Item value="IsChecked" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Loot">
+      <Item value="Distance" priority="26" />
+      <Item value="WorldId" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.ActionStructs">
+      <Item value="PickUp`0" priority="80" />
+      <Item value="TalkNpc`0" priority="49" />
+      <Item value="UseSkill`0" priority="26" />
+      <Item value="RegularAttack`0" priority="134" />
+      <Item value="Follow`0" priority="53" />
+      <Item value="MoveTo`0" priority="53" />
+      <Item value="GoTo`0" priority="53" />
+      <Item value="GoToGame`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@pwBot.MainLogic+CharacterSettings">
+      <Item value="Load`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nini.Config.IniConfigSource">
+      <Item value="Configs" priority="431" />
+      <Item value="AddConfig`0" priority="53" />
+      <Item value="Save`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nini.Config.IConfig">
+      <Item value="Set`0" priority="53" />
+      <Item value="GetValues`0" priority="26" />
+      <Item value="GetFloat`0" priority="80" />
+      <Item value="GetBoolean`0" priority="53" />
+      <Item value="Get`0" priority="76" />
+      <Item value="GetInt`0" priority="107" />
+      <Item value="GetString`0" priority="76" />
+      <Item value="GetKeys`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Template" priority="53" />
+      <Item value="IsEnabled" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="166" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.DispatcherTimer">
+      <Item value="Tick" priority="26" />
+      <Item value="Interval" priority="26" />
+      <Item value="Start`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromSeconds`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PwLib.Addresses">
+      <Item value="UnfreezeFlag" priority="26" />
+      <Item value="BaseAddress" priority="107" />
+      <Item value="GameAddress" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Linq.Enumerable">
+      <Item value="Repeat`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ThenBy`2" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="To`1" priority="26" />
+      <Item value="Split`0" priority="83" />
+      <Item value="StartsWith`0" priority="26" />
+      <Item value="Contains`0" priority="137" />
+      <Item value="GetBefore`0" priority="26" />
+      <Item value="Remove`0" priority="27" />
+      <Item value="Replace`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.BitConverter">
+      <Item value="ToInt16`0" priority="26" />
+      <Item value="GetBytes`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ProgressBar">
+      <Item value="ManipulationBoundaryFeedback" priority="26" />
+      <Item value="Maximum" priority="103" />
+      <Item value="Value" priority="109" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Chat">
+      <Item value="NewMessage" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@pwBot.MainLogic+ClericMode">
+      <Item value="None" priority="26" />
+      <Item value="Res" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.ChatMessage">
+      <Item value="Text" priority="135" />
+      <Item value="Scope" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Resource">
+      <Item value="WorldId" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="ItemsSource" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetFiles`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetFileNameWithoutExtension`0" priority="26" />
+      <Item value="Combine`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Shell.TaskbarItemInfo">
+      <Item value="ProgressState" priority="26" />
+      <Item value="ProgressValue" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Shell.TaskbarItemProgressState">
+      <Item value="None" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Npc">
+      <Item value="Id" priority="53" />
+      <Item value="WorldId" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetMethod`0" priority="27" />
+      <Item value="GetField`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Action">
+      <Item value="CreateDelegate`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Linq.Expressions.Expression">
+      <Item value="GetActionType`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodInfo">
+      <Item value="Invoke`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Single">
+      <Item value="InRange`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Rectangle">
+      <Item value="IsCoordIn`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@pwBot.MainLogic+CharacterModes">
+      <Item value="Frost" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Additional">
+      <Item value="DoSelect`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Globalization.NumberStyles">
+      <Item value="AllowHexSpecifier" priority="81" />
+      <Item value="HexNumber" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt16`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.FieldInfo">
+      <Item value="SetValue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PwLib.Offsets">
+      <Item value="ActionStruct" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Structs.ChatMessageStruct">
+      <Item value="itemId" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Structs.ResourceStruct">
+      <Item value="ResourceType" priority="26" />
+      <Item value="WorldId" priority="27" />
+      <Item value="ItemId" priority="27" />
+      <Item value="Distance" priority="27" />
+      <Item value="pName" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PwLib.Structs.ResourceLootStruct">
+      <Item value="ResourceType" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Switch">
+      <Item value="Create`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PwLib.LootType">
+      <Item value="Unknown" priority="55" />
+      <Item value="Coins" priority="26" />
+      <Item value="Item" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Switch`2">
+      <Item value="Case`0" priority="56" />
+      <Item value="End`0" priority="27" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

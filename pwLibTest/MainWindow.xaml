@@ -1,0 +1,111 @@
+﻿<Window x:Class="pwLibTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Clients">
+                <StackPanel>
+                    <Button Content="Update list" Click="UpdateClientsButtonClick" />
+                    <DataGrid Name="clientsGrid" AutoGenerateColumns="False" SelectedCellsChanged="SelectedClientChanged">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding HostPlayer.Name}" />
+                            <DataGridTextColumn Header="Class" Binding="{Binding HostPlayer.Class}" />
+                            <DataGridTextColumn Header="Level" Binding="{Binding HostPlayer.Level}" />
+                            <DataGridCheckBoxColumn Header="Online" Binding="{Binding Mode=OneWay, Path=IsConnected}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="PlayerInfo">
+                <ScrollViewer>
+                    <StackPanel>
+                        <Expander Header="Player">
+                            <DataGrid Name="playerGrid">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                                    <DataGridTextColumn Header="Value" Binding="{Binding Value}" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Expander>
+                        <Expander Header="Skills">
+                            <DataGrid Name="skillsGrid" />
+                        </Expander>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Inventory &amp; Catshop">
+                <ScrollViewer>
+                    <StackPanel>
+                        <Expander Header="Inventory">
+                            <DataGrid Name="inventoryGrid" />
+                        </Expander>
+                        <Expander Header="Equipment">
+                            <DataGrid Name="equipmentGrid" />
+                        </Expander>
+                        <Expander Header="My catshop">
+                            <DataGrid Name="myCatshopGrid" />
+                        </Expander>
+                        <Expander Header="Opened catshop">
+                            <DataGrid Name="openedCatshopGrid" />
+                        </Expander>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Environment">
+                <StackPanel>
+                    <Expander Header="Mobs">
+                        <DataGrid Name="mobsGrid" />
+                    </Expander>
+                    <Expander Header="NPCs">
+                        <DataGrid Name="npcsGrid" />
+                    </Expander>
+                    <Expander Header="Pets">
+                        <DataGrid Name="petsGrid" />
+                    </Expander>
+                    <Expander Header="Loot">
+                        <DataGrid Name="lootGrid" />
+                    </Expander>
+                    <Expander Header="Resources">
+                        <DataGrid Name="resourcesGrid" />
+                    </Expander>
+                    <Expander Header="Players">
+                        <DataGrid Name="playersGrid" />
+                    </Expander>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Target">
+                <DataGrid Name="targetGrid">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                        <DataGridTextColumn Header="Value" Binding="{Binding Value}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Actions">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Unfreeze" Click="UnfreezeClick" />
+                        <Button Content="Unfreeze permanent" Click="UnfreezePermClick" />
+                        <Button Content="Cancel permanent" Click="FreezePermClick" />
+                    </StackPanel>
+                    <Button Content="Follow target" Click="FollowClick" />
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="X++" Click="MoveClick"/>
+                        <Button Content="X--" Click="MoveClick"/>
+                        <Button Content="Y++" Click="MoveClick"/>
+                        <Button Content="Y--" Click="MoveClick"/>
+                        <CheckBox Content="Fly at 50" Name="flyCb"/>
+                    </StackPanel>
+                    <Button Content="Select nearest" Click="SelectNearestClick" />
+                    <Button Content="Regular attack" Click="RegularAttackClick" />
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="Use on yourself (not on target)" Name="useOnYourself" />
+                        <TextBox Text="skill id" Name="skillIdTb" />
+                        <Button Content="Use skill" Click="UseSkillClick" />
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

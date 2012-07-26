@@ -1,0 +1,61 @@
+﻿<Window x:Class="pwCatshopBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        Loaded="Window_Loaded">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Start">
+                <StackPanel>
+                    <RadioButton Name="catsWalkingRb" GroupName="mode" Content="Cats walking"  />
+                    <RadioButton Name="chatAdsRb" GroupName="mode" Content="Chat advertising" />
+                    <Label Content="Select a character:" />
+                    <Button Content="Update list" Click="updateCharBtn_Click"/>
+                    <DataGrid Name="charactersGrid" IsReadOnly="True" MouseDoubleClick="charactersGrid_MouseDoubleClick"  AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Path=PlayerInfo.Name}" Header="Name" />
+                            <DataGridTextColumn Binding="{Binding Path=PlayerInfo.Class}" Header="Class" />
+                            <DataGridTextColumn Binding="{Binding Path=PlayerInfo.Level}" Header="Lvl" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Advertising">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Content="Update" Click="updateInfo_Click" />
+                            <Button Content="Suspend" Click="suspend_Click" />
+                            <Button Content="Resume" Click="resume_Click" />
+                            <Button Content="Stop" Click="stop_Click" />
+                        </StackPanel>
+                        <Label Content="Items in catshop:" />
+                        <DataGrid Name="catItemsGrid" IsReadOnly="True" />
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Cats">
+                <StackPanel Orientation="Horizontal">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel>
+                            <Label Content="Items:" />
+                            <DataGrid Name="catsItemsGrid" IsReadOnly="True" SelectedCellsChanged="itemsGrid_SelectedCellsChanged" MouseUp="itemsGrid_SelectedCellsChanged" MouseDoubleClick="itemsGrid_MouseDoubleClick"/>
+                        </StackPanel>
+                    </ScrollViewer>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Content="Update" Click="updateInfo_Click" />
+                            <Button Content="Suspend" Click="suspend_Click" />
+                            <Button Content="Resume" Click="resume_Click" />
+                            <Button Content="Stop" Click="stop_Click" />
+                        </StackPanel>
+                        <Label Content="Sellers:" />
+                        <DataGrid Name="sellersGrid" IsReadOnly="True" MouseDoubleClick="sellersGrid_MouseDoubleClick" />
+                        <Label Content="Buyers:" />
+                        <DataGrid Name="buyersGrid" IsReadOnly="True" MouseDoubleClick="buyersGrid_MouseDoubleClick" />
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
